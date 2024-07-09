@@ -1,0 +1,22 @@
+
+:root {
+    --app-font-familiy: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --app-font-size: 16px;
+
+    --app-mono-familiy: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --app-mono-size: 18px;
+
+    --app-gap-0: 0;
+    --app-gap-1: 0.25rem;
+    --app-gap-2: 0.5rem;
+    --app-gap-3: 0.75rem;
+    --app-gap-4: 1rem;
+
+
+    --app-color-black: #000000;
+    --app-color-white: #ffffff;
+
+
+    --app-window-background: var(--app-color-black);
+    --app-window-foreground: var(--app-color-white);
+}

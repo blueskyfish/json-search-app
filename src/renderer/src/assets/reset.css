@@ -1,0 +1,26 @@
+
+body {
+    font-family: var(--app-font-familiy);
+    font-size: var(--app-font-size);
+    height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw;
+
+    background-color: var(--app-window-foreground);
+    color: var(--app-window-background);
+}
+
+/*
+ * Reset padding & margin
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1, h2, .app-title, .app-brand {
+    font-size: 1.25rem;
+}
