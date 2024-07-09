@@ -1,0 +1,4 @@
+.app-title {
+  padding: var(--app-gap-1) var(--app-gap-3);
+  margin-bottom: var(--app-gap-1);
+}
