@@ -1,0 +1,31 @@
+
+.app-page-header {
+  align-items: center;
+  background-color: var(--app-color-dark-grey);
+  color: var(--app-color-dark-gray-constract);
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+  padding: var(--app-gap-1);
+
+  .app-page-backward {
+    cursor: pointer;
+    margin-right: var(--app-gap-0);
+  }
+
+  .app-title {
+    flex: 1 1 auto;
+    padding: var(--app-gap-1) 0;
+    margin: 0 var(--app-gap-1);
+  }
+
+  .app-divider {
+    flex: 1 1 auto;
+  }
+
+  .app-icon-button.secondary {
+    --app-button-background: transparent;
+    --app-button-foreground: var(--app-color-dark-gray-constract);
+    --app-border-color: var(--app-color-dark-gray-constract);
+  }
+}

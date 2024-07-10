@@ -22,6 +22,11 @@
   --app-color-white: #ffffff;
   --app-color-primary: #2196F3;
   --app-color-primary-contrast: var(--app-color-white);
+  --app-color-secondary: #BDBDBD;
+  --app-color-secondary-contrast: var(--app-color-black);
+
+  --app-color-dark-grey: #757575;
+  --app-color-dark-gray-constract: var(--app-color-white);
 
   --app-color-active: var(--app-color-primary);
 
