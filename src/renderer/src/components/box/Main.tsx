@@ -1,9 +1,10 @@
 import './Main.css';
+import { ReactNode } from 'react';
 
 export type MainProps = {
-  children: JSX.Element | JSX.Element[];
+  children: ReactNode;
 };
 
-export default function Main({ children }: MainProps): JSX.Element {
-  return <main className="">{children}</main>;
+export function Main({ children }: MainProps): ReactNode {
+  return <main className="app-main">{children}</main>;
 }

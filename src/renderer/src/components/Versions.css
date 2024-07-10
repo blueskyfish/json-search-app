@@ -1,7 +1,7 @@
 .app-versions {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: var(--app-gap-1);
 
   .app-version {
     list-style: none;

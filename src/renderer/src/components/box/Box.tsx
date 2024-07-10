@@ -3,6 +3,6 @@ export type BoxProps = {
   children: JSX.Element | JSX.Element[];
 };
 
-export default function Box({ classList, children }: BoxProps): JSX.Element {
+export function Box({ classList, children }: BoxProps): JSX.Element {
   return <div className={classList}>{children}</div>;
 }
