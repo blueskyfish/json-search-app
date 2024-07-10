@@ -1,0 +1,45 @@
+.app-action-item {
+  --app-button-background: var(--app-color-primary);
+  --app-button-foreground: var(--app-color-white);
+  --app-border-color: var(--app-color-black);
+  --app-border-radius: var(--app-gap-1);
+
+  align-items: center;
+  background-color: var(--app-button-background);
+  border: 1px solid var(--app-border-color);
+  border-radius: var(--app-border-radius);
+  color: var(--app-button-foreground);
+  cursor: pointer;
+
+  display: flex;
+  flex-wrap: nowrap;
+  padding: var(--app-gap-1);
+
+  .app-icon {
+    flex: 0 0 auto;
+    margin-right: var(--app-gap-1);
+  }
+
+  .app-title {
+    flex: 1 1 auto;
+    font-size: var(--app-font-size-normal);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
+
+.app-action-item.transparent {
+  --app-button-background: transparent;
+  --app-button-foreground: var(--app-color-white);
+  --app-border-color: transparent;
+}
+
+.app-action-item.transparent.active {
+  --app-button-background: transparent;
+  --app-button-foreground: var(--app-color-active);
+  --app-border-color: transparent;
+
+}

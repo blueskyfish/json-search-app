@@ -1,0 +1,21 @@
+
+.app-sidebar {
+  align-items: center;
+  background-color: var(--app-color-black);
+  color: var(--app-color-white);
+  padding: 2rem var(--app-gap-1) var(--app-gap-1) var(--app-gap-1);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: 0;
+  width: var(--app-sidebar-collapsed-width);
+  max-width: var(--app-sidebar-collapsed-width);
+
+  .app-divider {
+    flex: 1 1 auto;
+  }
+}
+
+.app-sidebar.expanded {
+  width: var(--app-sidebar-expanded-width);
+  max-width: var(--app-sidebar-expanded-width);
+}

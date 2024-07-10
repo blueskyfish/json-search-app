@@ -1,12 +1,9 @@
-@import './root.css';
-@import './reset.css';
-
-#root {
+.app-main {
   align-items: stretch;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
+  flex: 1 1 auto;
   height: 100%;
   overflow: auto;
-  width: 100%;
 }
