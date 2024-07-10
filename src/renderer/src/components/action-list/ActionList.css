@@ -1,0 +1,37 @@
+.app-action-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  li {
+    list-style: none;
+    margin: 0 0 var(--app-gap-3) 0;
+  }
+}
+
+.app-action-list.collapsed {
+  align-items: center;
+
+  li {
+    .app-icon {
+      margin-right: 0;
+    }
+
+    .app-title {
+      display: none;
+      visibility: hidden;
+    }
+  }
+}
+
+.app-action-list.expanded {
+  li {
+    .app-title {
+      display: inline;
+      visibility: visible;
+    }
+  }
+}

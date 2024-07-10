@@ -1,0 +1,54 @@
+.app-action-button {
+  --app-button-background: var(--app-color-primary);
+  --app-button-foreground: var(--app-color-white);
+  --app-border-color: var(--app-color-black);
+  --app-border-radius: var(--app-gap-1);
+
+  align-items: center;
+  background-color: var(--app-button-background);
+  border: 1px solid var(--app-border-color);
+  border-radius: var(--app-border-radius);
+  color: var(--app-button-foreground);
+  cursor: pointer;
+
+  display: flex;
+  flex-wrap: nowrap;
+  padding: var(--app-gap-1);
+  max-width: 100%;
+
+  .app-icon {
+    margin-right: var(--app-gap-1);
+  }
+
+  .app-title {
+    flex: 1 1 auto;
+    font-size: var(--app-font-size-normal);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
+
+.app-action-button.collapsed {
+  .app-icon {
+    margin-right: 0;
+  }
+
+  .app-title {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.app-action-button.expanded {
+  text-align: left;
+  width: 100%;
+}
+
+.app-action-button.transparent {
+  --app-button-background: transparent;
+  --app-button-foreground: var(--app-color-white);
+  --app-border-color: transparent;
+}
